@@ -1,13 +1,12 @@
 {
   "name": "simple-ui",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a food page",
+  "main": "public/index.html",
   "scripts": {
-    "build-css" : "tailwindcss build -i src/styles.css -o public/output.css --watch"
-     
+    "dev" : "tailwindcss build -i src/styles.css -o public/output.css --watch"
   },
-  "author": "",
+  "author": "Emmanuel Akinyemi",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.3.6"

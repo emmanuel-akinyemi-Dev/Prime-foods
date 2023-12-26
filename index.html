@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./public/output.css">
 </head>
 <body class="bg-slate-200 px-10">
     <div class=" md:grid grid-cols-3 ">
@@ -16,8 +16,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                   </svg>
                 </div>
-            <div class="flex justify-end mt-6 md:block" >
-                <Ul class="text-lg hidden" id="navig">
+            <div class="flex justify-end mt-6" >
+                <Ul class="text-lg hidden md:block" id="navig">
                     <li class="navbtn" id="home">
                         <a href="index.html"><svg class="icons mr-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -25,13 +25,13 @@
                           <span>Home</span></a>
                     </li>
                     <li class="navbtn" id="about">
-                        <a href="about.html"><svg class="icons mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                        <a href="./public/about.html"><svg class="icons mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
                           </svg>
                           <span>About</span></a>
                     </li>
                     <li class="navbtn" id="contact">
-                        <a href="contact.html"><svg class="icons mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                        <a href="./public/contact.html"><svg class="icons mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                           </svg>
                           <span>Contact</span></a>
@@ -46,8 +46,8 @@
 
     <main class="md:col-span-2">
         <div class="flex justify-center md:justify-end mt-6">
-            <a href="login.html" class="btn"><span>Login</span></a>
-            <a href="form.html" class="btn"><span class="ml-4">Signup</span></a>
+            <a href="./public/login.html" class="btn"><span>Login</span></a>
+            <a href="./public/form.html" class="btn"><span class="ml-4">Signup</span></a>
         </div>
         <header class="header">
             <h2 class="titles">Reciepies</h2>
@@ -58,7 +58,7 @@
            <div class= "grid lg:grid-cols-3 gap-4">
              <!--cards go here-->
             <div class="card">
-                <img class="md:w-auto " src="./img/istockphoto-1178768522-612x612.jpg" alt="image">
+                <img class="md:w-auto " src="./public/img/istockphoto-1178768522-612x612.jpg" alt="image">
                 <div class="ml-3">
                     <span class="font-semibold"> 5 Bean Chilli Stew</span>
                     <span class="deal"> Weekend deals</span>
@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="card">
-                <img  src="./img/istockphoto-1178768522-612x612.jpg" alt="image">
+                <img  src="./public/img/istockphoto-1178768522-612x612.jpg" alt="image">
                 <div class="ml-3">
                     <span class="font-semibold"> 5 Bean Chilli Stew</span>
                     <span class="deal"> Weekend deals</span>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="card">
-                <img  src="./img/istockphoto-95617180-612x612.jpg" alt="image">
+                <img  src="./public/img/istockphoto-95617180-612x612.jpg" alt="image">
                 <div class="ml-3">
                     <span class="font-semibold"> 5 Bean Chilli Stew</span>
                     <span class="deal"> Weekend deals</span>
@@ -114,7 +114,7 @@
 
     </main>        
 </div>
-<script type="module" src="index.js"></script>
+<script type="module" src="./public/index.js"></script>
     
 </body>
 </html>
