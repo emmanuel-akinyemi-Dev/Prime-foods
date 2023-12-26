@@ -4,7 +4,8 @@
   "description": "a food page",
   "main": "public/index.html",
   "scripts": {
-    "dev" : "tailwindcss build -i src/styles.css -o public/output.css --watch"
+    "build-css" : "tailwindcss build -i src/styles.css -o public/output.css --watch"
+     
   },
   "author": "Emmanuel Akinyemi",
   "license": "ISC",
