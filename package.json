@@ -2,7 +2,7 @@
   "name": "simple-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "build-css" : "tailwindcss build -i src/styles.css -o public/output.css --watch"
      
