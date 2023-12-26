@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="output.css">
+
+<body class="bg-slate-200 px-10">
+    <div class=" md:grid grid-cols-3 ">
+      <div class="md:col-span-1 md:flex justify-end"> 
+        <nav>
+            <div class="md:{font-serif font-bold text-3xl uppercase p-6 } "> 
+                <div class="flex justify-between"><a href="/" class="text-gray-700 hover:text-yellow-600 transition ease-out duration-500 "><span>Prime Foods</span></a>
+                <svg class="icons md:hidden cursor-pointer hover:text-yellow-600" id="navibtn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </div>
+            <div class="flex justify-end mt-6 md:block" >
+                <Ul class="text-lg hidden" id="navig" >
+                    <li class="navbtn">
+                        <a href="#"><svg class="icons mr-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                          </svg>
+                          <span>Home</span></a>
+                    </li>
+                    <li class="navbtn">
+                        <a href="#"><svg class="icons mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                          </svg>
+                          <span>About</span></a>
+                    </li>
+                    <li class="navbtn ">
+                        <a href="#"><svg class="icons mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                          </svg>
+                          <span>Contact</span></a>
+                    </li>
+                </Ul>
+
+            </div>
+            
+        </div>
+        </nav>
+    </div>
+
+    <main class="md:col-span-2">
+        <div class="flex ml-20 items-center  mt-10">
+            <div class="w-96 bg-gray-300 rounded p-6">
+                <div class="flex justify-center text-xl font-bold capitalize"><svg class="icons mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+</svg>
+Signup</div>
+                <div class="block">
+                    <label for="Full-Name" class="text-base font-bold">Full Name</label>
+                    <input type="text" class="input" placeholder="Enter Full Name">
+                </div>
+                <div class="block">
+                    <label for="email" class="text-base font-bold">Email</label>
+                    <input type="email" class="input" placeholder="Enter Email">
+                </div>
+                <div class="block">
+                    <label for="phone" class="text-base font-bold">Phone</label>
+                    <input type="phone" class="input" placeholder="Enter Phone Number">
+                </div>
+                <div class="block">
+                    <label for="password" class="text-base font-bold">Password</label>
+                    <input type="password" class="input" placeholder="Create a strong password">
+                </div>
+                <div class="block">
+                    <label for="verify password" class="text-base font-bold">Verify Pasword</label>
+                    <input type="password" class="input" placeholder="Confirm password">
+                </div>
+                <div class="font-bold rounded cursor-pointer bg-gray-400 m-20 text-center text-slate-800 shadow-md shadow-slate-500  hover:shadow-yellow-500 transition hover:scale-125 duration-500">
+                    <span>Submit</span>
+                </div>
+        </div>
+        
+    
+        </div>
+    </main>
+<script type="module" src="index.js"></script>
+             
+</body>
+
+</html>
+
